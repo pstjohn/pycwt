@@ -34,10 +34,7 @@ __version__ = '$Revision: 2 $'
 
 import numpy
 import pylab
-try:
-    reload(wavelet)
-except:
-    import wav as wavelet
+from pycwt import wavelet
 
 # This script allows different sample data sets to be analysed. Simply comment
 # and uncomment the respective fname, title, label, t0, dt and units variables

@@ -11,6 +11,12 @@ wavelet and inverse wavelet transforms, cross-wavelet transform and wavelet
 transform coherence. Results are plotted in figures similar to the sample 
 images.
 
+PSTJOHN'S FORK
+    I am re-factoring the library to use the cwt for analyzing data from
+    circadian bioluminescence rhythms. I will be adding ridge-extraction
+    methods to allow for the determination of the most significant periodic
+    elements in a series.
+
 DISCLAIMER
     This module is based on routines provided by C. Torrence and G. P. Compo
     Compo available at http://paos.colorado.edu/research/wavelets/, on

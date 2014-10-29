@@ -36,9 +36,9 @@ REFERENCES
 __version__ = '$Revision: 3 $'
 # $Source$
 
-from wav import (ar1, ar1_spectrum, cwt, icwt, significance, xwt, wct, Morlet,
-    Paul, DOG, Mexican_hat)
-import plot
+from wavelet import (ar1, ar1_spectrum, cwt, icwt, significance, xwt,
+                     wct, Morlet, Paul, DOG, Mexican_hat)
+import wavplot
 
-__all__ = ['ar1', 'ar1_spectrum', 'cwt', 'icwt', 'significance', 'xwt', 'wct',
-    'Morlet', 'Paul', 'DOG', 'Mexican_hat']
+__all__ = ['ar1', 'ar1_spectrum', 'cwt', 'icwt', 'significance', 'xwt',
+           'wct', 'Morlet', 'Paul', 'DOG', 'Mexican_hat']

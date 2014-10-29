@@ -41,12 +41,8 @@ __version__ = '$Revision: 1 $'
 
 import numpy
 import pylab
-try:
-    reload(wavelet)
-    reload(wavplot)
-except:
-    import wav as wavelet
-    import plot as wavplot
+from pycwt import wavelet, wavplot
+
 # Important parameters
 data1 = dict(
     name = 'Arctic Oscillation',
